@@ -87,6 +87,8 @@ int main(void){
         long long t=min(dist[n1]+Edist[n2]+d , dist[n2]+Edist[n1]+d);
         ans=min(ans,t);
     }
+
+    
     cout<<ans<<endl;
     return 0;
 }
